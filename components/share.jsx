@@ -16,7 +16,7 @@ import {
 } from "react-share";
 
 
-function footer() {
+function Share() {
 
     const [currentPageURL, setCurrentPageURL] = useState('');
 
@@ -42,6 +42,6 @@ function footer() {
     )
 }
 
-export default footer
+export default Share
 
 

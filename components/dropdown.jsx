@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 
 
-export default function dropdown() {
+export default function Dropdown() {
     const [navbar, setNavbar] = useState(false);
 
     return (

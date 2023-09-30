@@ -1,6 +1,7 @@
 
 import Link from 'next/link';
 import Share from './share';
+import Image from 'next/image';
 
 
 function footer() {
@@ -9,11 +10,11 @@ function footer() {
 
 
             <div className=' md:columns-5 columns-1 md:pt-60'>
-                <img className="w-[156px] h-10 py-5" src="https://via.placeholder.com/156x40" />
+                <Image alt='image' className="w-[156px] h-10 py-5" src="https://via.placeholder.com/156x40" />
                 <div className=' text-zinc-100 text-base font-medium leading-normal gap-3 py-5'><Link href='/' className=' text-zinc-100 text-base font-medium leading-normal gap-3 py-5 font-bodoni-moda'>Home</Link></div>
                 <div className=' text-zinc-100 text-base font-medium leading-normal gap-3 py-5'><Link href='/guide' className=' text-zinc-100 text-base font-medium leading-normal gap-3 py-5 font-bodoni-moda'>Guide</Link></div>
                 <div className=' text-zinc-100 text-base font-medium leading-normal gap-3 py-5'><Link href='/contact' className=' text-zinc-100 text-base font-medium leading-normal gap-3 py-5 font-bodoni-moda'>Contact Us</Link></div>
-                <img className="w-[156px] h-10 py-5" src="https://via.placeholder.com/156x40" />
+                <Image alt='image' className="w-[156px] h-10 py-5" src="https://via.placeholder.com/156x40" />
             </div>
 
             <div>

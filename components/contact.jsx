@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Select from 'react-select'
 import Share from './share';
+import Image from 'next/link';
 
 export default function Contact() {
     const [agreed, setAgreed] = useState(false)
@@ -140,7 +141,7 @@ export default function Contact() {
                             type="submit"
                             className="block w-full rounded-md bg-[#C5C5FF] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
-                            Let's talk
+                            Let&apos;s talk
                         </button>
                     </div>
                 </form>

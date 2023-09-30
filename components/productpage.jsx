@@ -1,6 +1,6 @@
 
 import { getProjects } from '@/sanity/sanity-utils';
-import Link from 'next/link';
+import {Link, Image} from 'next/link';
 
 
 
@@ -17,7 +17,7 @@ export default async function Productpage() {
       <div className="mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center items-center text-center p-10">{projects.map((project) => (
         <Link href={`/projects/${project.slug}`} key={project._id} className="border-4 border-gray-2 rounded-xl p-1 hover:scale-105 hover:border-blue-500 transition">
           {project.image && (
-            <img
+            <Image
               src={project.image}
               alt={project.name}
               width={200}
